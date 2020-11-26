@@ -1,0 +1,68 @@
+.hidden {
+    display: none;
+}
+
+.selected {
+    box-shadow: 6px 6px #636363;
+}
+
+
+
+#option1, #option2 {
+    position: absolute;
+    width: 20%;
+    top: 20%;
+    border: 2pt solid black;
+}
+
+#option1 {
+    left: 20%;
+}
+
+#option2 {
+    right: 20%;
+}
+
+#intro, #questions, #end-game-menu, #stats {
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+
+button {
+    font-family: inherit;
+    color: black;
+    background-color: rgb(112, 233, 241);
+    border: 2pt solid black;
+    padding: 8px;
+    width: 100px;
+}
+
+#start, #submit-container, #show-stats {
+    margin: 0px;
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%);
+}
+
+h2 {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.chart-container {
+    height: 50%;
+    width: 50%;
+}
+
+.stats-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

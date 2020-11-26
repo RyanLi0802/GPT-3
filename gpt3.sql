@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS gpt3;
+USE gpt3;
+
+
+CREATE TABLE IF NOT EXISTS Stats (
+    qid INT(11) NOT NULL AUTO_INCREMENT,
+    answer INT(11) NOT NULL,
+    option1 INT(11) NOT NULL,
+    option2 INT(11) NOT NULL,
+    PRIMARY KEY(qid)
+)

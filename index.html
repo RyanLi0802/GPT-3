@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+       <title>Which Text is Real?</title>
+       <link type="text/css" href="styles.css" rel="stylesheet" />
+       <script  src="script.js"></script>
+       <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    </head>
+    <body>
+        <div id="intro">
+            <h2>Which Text is Real?</h2>
+            <p>this is some intro.</p>
+            <button id="start">Start!</button>
+        </div>
+        <div id="questions" class="hidden">
+            <h3>Choose the text you think is real</h2>
+            <img id="option1" class="option" />
+            <img id="option2" class="option" />
+            <div id="submit-container">
+                <button id="submit">Next</button>
+            </div>
+            
+        </div>
+
+        <div id="end-game-menu" class="hidden">
+            <h2>Thank you for participating!</h2>
+            <button id="show-stats">Show Stats</button>
+        </div>
+        <div id="stats" class="hidden"></div>
+    </body>
+</html>
