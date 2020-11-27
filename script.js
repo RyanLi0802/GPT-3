@@ -125,8 +125,8 @@
                     p.innerText = "the answer is: " + data[i].answer;
 
                     div.appendChild(heading);
-                    div.appendChild(chart);
                     div.appendChild(p);
+                    div.appendChild(chart);
                     $("stats").appendChild(div);
                 }
             })
